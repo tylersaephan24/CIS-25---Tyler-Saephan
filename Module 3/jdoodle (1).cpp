@@ -14,6 +14,6 @@ int main() {
     cout << "Enter cost: ";
     cin >> cost;   
     
-    cout << "Total cost for " << itemName << ": $" << (quantity * cost) << endl;  // Fixed std:: syntax
+    cout << "Total cost for " << itemName << ": $" << (quantity * cost) << endl; 
     return 0;
 }
